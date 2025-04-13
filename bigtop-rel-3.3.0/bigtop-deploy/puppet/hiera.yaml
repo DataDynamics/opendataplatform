@@ -1,0 +1,7 @@
+---
+:yaml:
+  :datadir: /etc/puppet/hieradata
+:hierarchy:
+  - site
+  - bigtop/cluster
+  - bigtop/repo
