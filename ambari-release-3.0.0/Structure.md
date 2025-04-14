@@ -2,6 +2,8 @@
 
 ## Directory
 
+### Ambari Server
+
 * /usr/lib/ambari-server/web
   * *.jar (ambari-admin, ambari-metrics-common ambari-server ambari-server-spi ambari-serviceadvisor ambari-views ...)
   * web   (ambari-web)
@@ -37,3 +39,13 @@
   * metrics.properties
 * /etc/init.d
   * ambari-server 
+
+### Ambari Server
+
+* /var/log/ambari-agent
+* /etc/ambari-agent/conf
+    * ambari-agent.ini
+    * logging.conf.sample
+* /etc/init.d
+    * ambari-agent 
+
