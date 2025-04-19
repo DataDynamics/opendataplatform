@@ -30,6 +30,10 @@ install: build
 		$(PYTHON) setup.py install; \
 	elif test $(PYTHON) = python2.5; then \
 		$(PYTHON) setup.py install; \
+	elif test $(PYTHON) = python2.6; then \
+		$(PYTHON) setup.py install; \
+	elif test $(PYTHON) = python3.6; then \
+		$(PYTHON) setup.py install; \
 	else \
 		$(PYTHON) setup.py install --user; \
 	fi
